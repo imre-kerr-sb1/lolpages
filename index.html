@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Cringe HTML Page</title>
+    <style>
+        /* Overdramatic font and colors */
+        body {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            background-color: #ffdf00;
+            color: #333333;
+            text-align: center;
+        }
+        h1 {
+            font-size: 4em;
+            color: #ff4500;
+            animation: spin 4s linear infinite;
+        }
+        h2 {
+            font-size: 2em;
+            color: #333333;
+        }
+        .button {
+            background-color: #333333;
+            color: #ffdf00;
+            padding: 10px 20px;
+            font-size: 1.5em;
+            border: 2px solid #ff4500;
+            cursor: pointer;
+            transition: all 0.5s ease;
+            /* Because why not make buttons glow? */
+        }
+        .button:hover {
+            background-color: #ff4500;
+            color: #ffffff;
+            box-shadow: 0 0 10px #ff4500;
+        }
+        /* Mandatory spin animation */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Prepare to be blown away -->
+    <h1>Welcome to the Internet</h1>
+    <h2>We have cookies, memes, and the inevitable existential dread</h2>
+    <p>Welcome to my HTML page that does absolutely nothing but look mildly annoying.</p>
+    
+    <button class="button" onclick="alert('You clicked it... but nothing happens. LOL')">Click Me for No Reason</button>
+
+    <footer>
+        <p>© 2024 Meme Lord. All rights... uh, I guess reserved?</p>
+    </footer>
+</body>
+</html>
